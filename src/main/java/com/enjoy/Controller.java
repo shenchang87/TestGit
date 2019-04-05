@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
 	@RequestMapping("/api/serach")
      public String     saveObj() {
-         String msg= "Hello  word   task   success";
+         String msg= "Hello  word   task   success  xxx";
          System.out.println("返回数据"+msg);
          return   msg;
      }
